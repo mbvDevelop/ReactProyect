@@ -1,0 +1,210 @@
+.section_1{
+    width: 100%;
+    height: 65vh;
+    margin-top: 88px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../../public/files/Images/lynxground.png);
+    /* flex */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.section_1_container{
+    width: 39%;
+    height: 100%;
+    padding: 50px 45px 23px;
+    background-color: rgba(253, 156, 66, 0.6)
+    ;
+    backdrop-filter: blur(5px);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section_1_container_text{
+    width: 90%;
+} 
+.container_text_tlt{
+    font-family: poppins-medium;
+    color: white;
+}
+.container_text_tlt2{
+    font-family: outline;
+    color: white;
+}
+.section_1_container_logos{
+    width: 85%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container_logos_LMR{
+    font-family: poppins-bold;
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 2px;
+}
+.container_logos_solana{
+    width: 40%;
+}
+@media only screen and (max-width: 2560px) and (max-height: 1440px) {
+    .section_1_container{
+        padding: 80px 90px 50px;
+    }
+    .container_text_tlt{
+        font-size: 5rem;
+        margin-top: 10%;
+    }
+    .container_text_tlt2{
+        font-size:11rem;
+    }
+    .container_logos_LMR{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 1920px) and (max-height: 1080px) {
+    .section_1_container{
+        padding: 50px 60px 30px;
+    }
+    .container_text_tlt{
+        font-size: 3.9rem;
+        margin-top: 10%;
+    }
+    .container_text_tlt2{
+        font-size:9.2rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 1600px)  and (max-height: 900px) {
+    .section_1_container{
+        padding: 30px 60px 30px;
+    }
+    .container_text_tlt{
+        font-size: 3rem;
+    }
+    .container_text_tlt2{
+        font-size: 7rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+  }
+
+@media only screen and (max-width: 1440px) and (max-height: 900px) {
+    .container_text_tlt{
+        font-size: 3rem;
+    }
+    .container_text_tlt2{
+        font-size: 7rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+    
+  }
+  @media only screen and (max-width: 1366px) and (max-height: 768px) {
+    .container_text_tlt{
+        font-size: 2.3rem;
+    }
+    .container_text_tlt2{
+        font-size: 5.9rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+  }
+
+  @media only  screen and (max-width: 1280px) and (max-height: 1024px) {
+    .container_text_tlt{
+        font-size: 3rem;
+    }
+    .container_text_tlt2{
+        font-size: 7rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+    .section_1_container{
+        padding: 30px 60px 30px;
+    }
+  }
+  @media only  screen and (max-width: 1280px) and (max-height: 800px) {
+    .container_text_tlt{
+        font-size: 3rem;
+    }
+    .container_text_tlt2{
+        font-size: 6rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+  }
+  @media only  screen and (max-width: 1280px) and (max-height: 720px) {
+    .section_1{
+        height: 80vh;
+    }
+    .container_text_tlt{
+        font-size: 3rem;
+    }
+    .container_text_tlt2{
+        font-size: 6rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.5rem;
+    }
+  }
+  @media only  screen and (max-width: 1024px)and (max-height: 768px)  {
+    .container_text_tlt{
+        font-size: 2rem;
+    }
+    .container_text_tlt2{
+        font-size: 5.4rem;
+    }
+    .container_logos_LMR{
+        font-size: 1.3rem;
+    }
+    .container_logos_solana{
+        width: 53%;
+    }
+    .section_1_container_logos{
+        width: 90%;
+    }
+    .section_1_container{
+        padding: 30px 40px 30px;
+    }
+  }    
+
+@media only screen and (max-device-width: 640vh)
+and (orientation: portrait){
+    .section_1 {
+        height:300px;
+    }
+    .section_1_container{
+        width: 100%;
+    }
+    .container_text_tlt{
+        font-size: 35px;
+        text-align: center;
+        font-family: poppins-extrabold;
+    }
+    .container_text_tlt2{
+        font-size: 80px;
+        text-align: end;
+    }
+    .section_1_container_logos{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section_1_container{
+       background-image: none;
+    }
+}
